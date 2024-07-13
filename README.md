@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+# Vue 3 + Vite + Partytown
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+I tried to poc with usecase party-town library with incase fetch-api then send reponse to vue state
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+- [X] Consider detail code on HelloWorld.vue
+
+<img src="./screenshots/preview.png" width="100%;" height="auto" />
+
+
+
+## How to run
+```sh
+npm run dev # run dev mode
+npm run build # build to dist
+serve -s dist -l 8080 # run after build
+```

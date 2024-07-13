@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [
     vue(),
     partytownVite({
-      
+      dest: path.join(__dirname, 'dist', 'public/~partytown'),
     }),
   ],
 })
